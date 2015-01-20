@@ -30,6 +30,12 @@ var sun = function(str){
   return str.indexOf('sun') > 0;
 };
 
+var tiny = function(num){
+  return (num > 0 && num < 1);
+};
+
+
+
 // tests
 tripleFive(3);
 console.log(lastLetter('hi there'));
