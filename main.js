@@ -22,6 +22,9 @@ var startsWithA = function(str){
   return (str.substr(0,1) == 'a' || str.substr(0,1) == 'A');
 };
 
+var excite = function(str){
+  return str.indexOf('sun') > 0;
+};
 
 // tests
 tripleFive(3);
@@ -31,3 +34,5 @@ console.log(toArray(3,5,67,'hi'));
 console.log(startsWithA('Alon'));
 console.log(startsWithA('alon'));
 console.log(startsWithA('Bal0on'));
+console.log(excite('wow the sun\'s out!'));
+console.log(excite('Damn it\'s cloudy'));
