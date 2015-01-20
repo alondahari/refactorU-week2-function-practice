@@ -23,6 +23,10 @@ var startsWithA = function(str){
 };
 
 var excite = function(str){
+  return str + '!!!';
+};
+
+var sun = function(str){
   return str.indexOf('sun') > 0;
 };
 
@@ -34,5 +38,7 @@ console.log(toArray(3,5,67,'hi'));
 console.log(startsWithA('Alon'));
 console.log(startsWithA('alon'));
 console.log(startsWithA('Bal0on'));
-console.log(excite('wow the sun\'s out!'));
-console.log(excite('Damn it\'s cloudy'));
+console.log(excite('yes'));
+console.log(excite('go'));
+console.log(sun('wow the sun\'s out!'));
+console.log(sun('Damn it\'s cloudy'));
