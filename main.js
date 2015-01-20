@@ -18,7 +18,16 @@ var toArray = function(){
   return arr;
 };
 
+var startsWithA = function(str){
+  return (str.substr(0,1) == 'a' || str.substr(0,1) == 'A');
+};
+
+
+// tests
 tripleFive(3);
 console.log(lastLetter('hi there'));
 console.log(square(3));
 console.log(toArray(3,5,67,'hi'));
+console.log(startsWithA('Alon'));
+console.log(startsWithA('alon'));
+console.log(startsWithA('Bal0on'));
